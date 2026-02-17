@@ -1,0 +1,58 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.main-container {
+  display: flex;
+  min-height: 100vh;
+}
+
+.sidebar {
+  width: 220px;
+  background: #111827;
+  padding: 20px;
+  color: white;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar li {
+  padding: 10px;
+  margin: 10px 0;
+  background: #1f2937;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.sidebar li:hover {
+  background: #374151;
+}
+
+.content {
+  flex: 1;
+  padding: 20px;
+}
+
+.card {
+  background: #f3f4f6;
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 500px;
+}
+
+.progress {
+  background: #ddd;
+  height: 20px;
+  border-radius: 10px;
+  overflow: hidden;
+  margin-bottom: 10px;
+}
+
+.progress-bar {
+  background: #4CAF50;
+  height: 100%;
+}
